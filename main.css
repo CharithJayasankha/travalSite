@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto Condensed", sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+body {
+    background-color: rgb(253, 246, 246);
+}
+
+
+.wrap {
+    margin: 0 auto;
+}
+
+
+
+nav {
+    background-color: #eee8be;
+    display: flex;
+    height: 14vh;
+    align-items: center;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+
+}
+
+nav .logo img {
+    width: 120px;
+    margin-left: 20px;
+
+}
+
+nav .links a {
+    color: brown;
+    padding: 10px 20px;
+    margin-right: 15px;
+}
+
+nav .links a:hover {
+    background-color: #e1d9a7;
+    border-radius: 10px;
+}
+
+nav .links {
+    display: flex;
+    justify-content: space-around;
+}
+
+.home_content {
+    height: 80vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.home_content .home_text {
+    width: 50%;
+    text-align: justify;
+    line-height: 30px;
+    align-self: center;
+}
+
+.home_content .home_text p {
+    margin-bottom: 20px;
+    margin-top: 20px;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+.input {
+    margin-top: 20px;
+    background-color: #eee8be;
+    border: none;
+    color: brown;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.home_content .home_image img {
+    border-radius: 7%;
+    height: 70vh;
+}
+
+.sub_pages {
+    margin-top: 20px;
+    height: 100vh;
+}
+
+.sub_pages .sub_content .h1 {
+    padding-top: 8%;
+    text-decoration: underline;
+    text-align: center;
+}
+
+.sub_content .container {
+    display: flex;
+    margin: 30px 50px 0px 50px;
+}
+
+.container .place {
+    width: 25%;
+    height: 85Vh;
+    border-radius: 20px;
+    margin: 0 20px;
+    background-color: rgb(237, 237, 237);
+    border: 1px solid rgb(224, 224, 224);
+}
+
+.container .place:hover {
+    background-color: rgb(212, 212, 212);
+
+}
+
+.container .img_box {
+    height: 50Vh;
+}
+
+.container .place img {
+    border-top-right-radius: 7%;
+    border-top-left-radius: 7%;
+    height: 100%;
+    width: 100%;
+}
+
+.container .place .textarea h3 {
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.container .place .textarea p {
+    text-align: justify;
+    font-size: 15px;
+    padding: 10px;
+}
+
+.about {
+    margin: 50px;
+    display: flex;
+    align-items: center;
+}
+
+
+.about .textarea p {
+    margin-top: 20px;
+    margin-bottom: 40px;
+    line-height: 25px;
+    font-size: 17px;
+    text-align: justify;
+    align-self: center;
+}
+
+
+.contact .text {
+    width: 40%;
+    padding: 20px;
+    background-color: #eee8c0;
+    border-radius: 20px;
+    margin: 50px auto;
+}
+
+.contact .text .container {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+input {
+    height: 18px;
+    margin: 5px;
+    border: none;
+}
+
+textarea {
+    margin: 5px;
+    height: 150px;
+}
+
+.contact .text .container .input {
+    align-self: self-end;
+    background-color: #fbfbc7;
+}
